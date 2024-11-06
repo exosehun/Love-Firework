@@ -104,7 +104,7 @@ while running:
             show_text = False
 
     font = pygame.font.Font(None, 200)
-    text = font.render("I love you", True, (255, 0, 0))
+    text = font.render("Love", True, (255, 0, 0))
     text.set_alpha(text_alpha)  
     text_rect = text.get_rect(center=(600, 600))  #視窗設定在1200,600代表文字設定在視窗中間
     screen.blit(text, text_rect)
